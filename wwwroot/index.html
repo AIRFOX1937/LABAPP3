@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <script src="script.js"></script>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Список людей</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/
+bootstrap/4.4.0/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+
+<body onload="InitialFunction()" style="background-image: url(https://img.youscreen.ru/wall/14977583623391/14977583623391_1920x1200.jpg); color: white;  margin-top: 50px ">
+    <div style="color: black; font-weight: 700">
+        <h2 style="margin-left: 530px;">Список людей</h2>
+        <form name="peoplesForm">
+            <input type="hidden" name="id" value="0" />
+            <div style="margin-left: 520px;">
+                <div class="form-group col-md-5">
+                    <label for="name">Имя:</label>
+                    <input class="form-control" name="name" />
+
+                </div>
+                <div class="form-group col-md-5">
+                    <label for="age">Количество лет:</label>
+                    <input class="form-control" name="age" type="number" />
+
+                </div>
+                <div class="form-group col-md-5">
+                    <label for="surname">Фамилия:</label>
+                    <input class="form-control" name="surname" />
+
+                </div>
+                <div class="panel-body">
+                    <button type="submit" id="submit" class="btn btnprimary" style="background-color: #40e0d0; margin: 15px; font-weight: 700">Сохранить</button>
+                    <a id="reset" class="btn btn-primary" style="margin: 15px; font-weight: 700; background-color: #FFC8A8 ">Сбросить</a>
+                </div>
+            </div>
+
+        </form>
+        <table class="table table-condensed table-striped col-md-6" style="color:black; margin-left: 535px;">
+
+            <thead>
+                <tr>
+                    <th  style="margin-left: 520px;">Id</th>
+                    <th  style="margin-left: 520px;">Имя</th>
+                    <th  style="margin-left: 520px;">Лет</th>
+                    <th  style="margin-left: 520px;">Фамилия</th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+            </tbody>
+
+        </table>
+
+    </div>
+    <footer style="margin-top: 315px; margin-left: 15px; color: black; font-weight: 700; ">Лывин Артур и Саляхов Адель</footer>
+</body>
+
+</html>
